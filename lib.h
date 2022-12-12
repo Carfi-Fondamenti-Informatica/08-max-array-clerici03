@@ -1,2 +1,2 @@
 
-float numeromax (float numeri [], int dim);
+float numeromax (float numeri[], int dim);
