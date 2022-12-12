@@ -1,4 +1,4 @@
-#include "lib.h.h"
+#include "lib.h"
 
 float numeromax (float numeri[], int dim) {
     float massimo= 1;
