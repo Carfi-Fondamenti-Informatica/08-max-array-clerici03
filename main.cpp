@@ -3,14 +3,14 @@
 
 using namespace std;
 int main() {
-    int dim=0;
-    cin >> dim;
-    float numeri[dim];
+    int n;
+    cin>>n;
+    float numeri[n];
     float x;
-    for (int i=0; i< dim; i++){
-        cin >> x;
+    for (int i=0; i< n; i++){
+        cin>>x;
         numeri[i]=x;
     }
-    cout<< numeromax( numeri, dim);
+    cout<< numeromax(b, n);
     return 0;
 }
