@@ -1,11 +1,11 @@
 #include "lib.h"
 
-float numeromax (float numeri[], int dim) {
-    float massimo= 1;
-    for (int j= 0; j< dim; j++) {
-        if (numeri[j] > massimo) {
-            massimo =numeri[j];
+float numeromax (float b[], int n) {
+    float c=1;
+    for (int j=0; j<n; j++) {
+        if (numeri[j]>c) {
+            c =numeri[j];
         }
     }
-    return massimo;
+    return c;
 }
